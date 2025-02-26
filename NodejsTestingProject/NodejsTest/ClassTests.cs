@@ -12,7 +12,7 @@ namespace NodejsTest
         [Fact]
         public void StandardTest()
         {
-            Shirt shirt = new Shirt() { Color = "Red", Size = 5};
+            Shirt shirt = new Shirt() { Color = "Re", Size = 5};
             Assert.Equal("Red", shirt.Color);
             Assert.Equal(5, shirt.Size);
         } 
