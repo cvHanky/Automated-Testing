@@ -1,0 +1,12 @@
+# This is my own workflow. Currently using this to learn how to create jobs.
+
+name: MyOwnWorkflow
+
+on: 
+  #push:
+    #branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+#jobs:
+  
